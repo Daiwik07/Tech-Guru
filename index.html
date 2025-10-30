@@ -1,62 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Tech Guru</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
+
+<head>
+  <title>Tech Guru</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .blur-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 60vw;
+      height: 80vh;
+      background: rgba(255, 255, 255 , 0.2); /* Not just transparent! */
+      color: white;
+      border-radius: 20px;
+      padding: 2em;
+      text-align: center;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-footer">
+      <div> 
+        <h1>Tech Guru</h1>
+      </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Gadget Showcase</a></li>
-        <li><a href="#">Comparison</a></li>
-        <li><a href="#">Buying Guide</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/gadget.html">Gadget Showcase</a></li>
+        <li><a href="/comparison.html">Comparison</a></li>
+        <li><a href="/buying_guide.html">Buying Guide</a></li>
       </ul>
     </nav>
-    <main>
-      <div class="hero-container">
-        <img src="image1.png" alt="" />
-        <div class="hero-text">
-          <h1>Welcome to Tech Guru</h1>
-          <p>
-            Your ultimate destination for the latest tech reviews and
-            comparisons.
-          </p>
-        </div>
-      </div>
+  </header>
+  <div class="hero-container">
+    <img src="image1.png" alt="" class="hero-bg-img" />
+    <div class="hero-text">
+      <h1>Welcome to Tech Guru</h1>
+      <p>
+        Your ultimate destination for the latest tech reviews and
+        comparisons.
+      </p>
+    </div>
+  </div>
+  <div class="hr"></div>
+  <div class="card-container">
+    <div class="card">
+      <div class="icon" style="background: #8c7c41">⚡</div>
+      <h2>Gadget Showcase</h2>
+      <p>
+        Foster creative thinking and problem-solving skills as kids identify
+        real-world challenges and craft innovative solutions.
+      </p>
+    </div>
+    <div class="card">
+      <div class="icon" style="background: #198754">🏢</div>
+      <h2>Comparison</h2>
+      <p>
+        Learn essential entrepreneurship concepts like marketing, finance,
+        and product development in a fun, engaging environment.
+      </p>
+    </div>
+    <div class="card">
+      <div class="icon" style="background: #23497c">👥</div>
+      <h2>Buying Guide</h2>
+      <p>
+        Develop public speaking, leadership, and collaboration skills that
+        build confidence for future success.
+      </p>
+    </div>
+  </div>
+  <div class="hr"></div>
+  <div class="hr"></div>
+  <h1 style="font-size:43px; color: white; display: flex; justify-content: center; align-items: center; margin-top: 50px;">WHY IS LATEST TECH IMPORTANT</h1>
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+      <div class="blur-container">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, est velit molestiae dolor voluptates perspiciatis quia, aliquam iure numquam commodi laborum explicabo! Laboriosam saepe excepturi odit sint repudiandae ipsam iure nostrum aspernatur aut vitae sit blanditiis provident dolorum, consequuntur recusandae similique iste, est modi autem pariatur tempore officia quaerat! A deleniti quae provident id odio architecto! Architecto explicabo magni vel neque ratione ipsum doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil exercitationem nobis fugiat minus culpa at nulla totam possimus, perferendis ut itaque labore inventore veniam ad aut repellendus accusantium! Vitae eum eius blanditiis error voluptatem, velit autem! Provident, pariatur amet? Laborum sapiente praesentium facilis totam at aut, sequi in quisquam, sit libero pariatur ab tenetur vitae quos accusamus. Officia recusandae vero ipsa distinctio suscipit?
+      </p>
+    </div>
+  </div>
 
-      <div class="card-container">
-        <div class="card">
-          <div class="icon" style="background: #8c7c41">
-            ⚡
-          </div>
-          <h2>Spark Creativity</h2>
-          <p>
-            Foster creative thinking and problem-solving skills as kids identify
-            real-world challenges and craft innovative solutions.
-          </p>
-        </div>
-        <div class="card">
-          <div class="icon" style="background: #198754">
-            🏢
-          </div>
-          <h2>Build Business Skills</h2>
-          <p>
-            Learn essential entrepreneurship concepts like marketing, finance,
-            and product development in a fun, engaging environment.
-          </p>
-        </div>
-        <div class="card">
-          <div class="icon" style="background: #23497c">
-            👥
-          </div>
-          <h2>Grow Confidence</h2>
-          <p>
-            Develop public speaking, leadership, and collaboration skills that
-            build confidence for future success.
-          </p>
-        </div>
-      </div>
-    </main>
-  </body>
+</body>
+
 </html>
