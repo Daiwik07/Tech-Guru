@@ -1,5 +1,17 @@
 INDEX.HTML
 
+Welcome to Tech Guru
+Your ultimate destination for the latest tech reviews and comparisons.
+
+Gadget Showcase
+Here, We Showcase the latest and greatest gadgets in the market
+
+Comparison
+Here, We Provide In-depth comparisons to help you compare features, specs, and prices.
+
+Buying Guide
+Here, We Offer expert buying guides to help you make informed purchasing decisions.
+
 WHY IS LATEST TECH IMPORTANT
 Staying current with the latest technology is crucial because it drives progress across every aspect of modern life, from healthcare and education to business and communication. New technologies often solve problems more efficiently, reduce costs, and open up possibilities that were previously unimaginable—whether that's AI helping doctors diagnose diseases earlier, renewable energy innovations combating climate change, or communication tools connecting people across the globe instantly. Beyond practical benefits, embracing emerging technology helps individuals and organizations remain competitive and relevant in an increasingly digital world. Those who adapt to technological advances can leverage new tools to work smarter, make better-informed decisions, and create opportunities for innovation. Additionally, understanding the latest tech empowers people to participate meaningfully in conversations about how these tools should be developed and regulated, ensuring technology serves humanity's best interests rather than creating new problems. In essence, the latest technology isn't just about having the newest gadgets—it's about harnessing human ingenuity to build a better, more connected, and more capable future.
 
@@ -112,7 +124,7 @@ Affordable mixed reality
 Battery Life
 Up to 10 days
 180 min runtime
-TBD
+Up to 3 hours
 Up to 100 hours
 
 Ecosystem
@@ -124,7 +136,7 @@ WearOS 5
 Availability
 Available now
 Available now
-Q4 2025
+Will Be Announced
 Available now
 
 Value Rating
